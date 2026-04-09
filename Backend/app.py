@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL  = "https://movie-recommendation-69kl.onrender.com"
+BASE_URL  = "https://movie-recommendation-fbqy.onrender.com"
 # Backend fires ~11 TMDB calls in parallel — give it up to 30 s.
 # The old 8 s was shorter than needed, causing the timeout error.
 TIMEOUT   = 30
